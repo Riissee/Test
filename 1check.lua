@@ -1,5 +1,5 @@
 script_author('Risee')
-script_version('1')
+script_version('2')
 require "lib.moonloader"
 require "lib.samp.events"
 local sampev = require 'lib.samp.events'
@@ -16,7 +16,7 @@ function main()
 		sampRegisterChatCommand("ginfo", cmd_ginfo)
 		sampRegisterChatCommand("sid", cmd_sid)
 	
-	 sampAddChatMessage("[EasyCheck]:{FFFFFF} Актививирован.", 0xFFB8F08B)
+	 sampAddChatMessage("[EasyCheck]:{FFFFFF} Актививирован 2.0.", 0xFFB8F08B)
 	 sampAddChatMessage("Отказаться от аренды : {00FF00}SHIFT+F{FFFFFF}. ", 0xFFB8F08B)
 	 sampAddChatMessage("Ближайший слетевший дом : {00FF00}delete{FFFFFF}. ", 0xFFB8F08B)
 	 sampAddChatMessage("Смена погоды и пробив AF : {00FF00}*{FFFFFF}. ", 0xFFB8F08B)
