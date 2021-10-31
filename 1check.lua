@@ -1,4 +1,4 @@
-script_author('Rise')
+script_author('Risee')
 
 require "lib.moonloader"
 require "lib.samp.events"
@@ -16,13 +16,13 @@ function main()
 		sampRegisterChatCommand("ginfo", cmd_ginfo)
 		sampRegisterChatCommand("sid", cmd_sid)
 	
-	 sampAddChatMessage("[EasyCheck]:{FFFFFF} Актививирован.", 0xFFB8F08B)
+	 sampAddChatMessage("[EasyCheck]:{FFFFFF} Актививирован версия 2!.", 0xFFB8F08B)
 	 sampAddChatMessage("Отказаться от аренды : {00FF00}SHIFT+F{FFFFFF}. ", 0xFFB8F08B)
 	 sampAddChatMessage("Ближайший слетевший дом : {00FF00}delete{FFFFFF}. ", 0xFFB8F08B)
 	 sampAddChatMessage("Смена погоды и пробив AF : {00FF00}*{FFFFFF}. ", 0xFFB8F08B)
 	 sampAddChatMessage("Информация о домах в госсе : {00FF00}+{FFFFFF}. ", 0xFFB8F08B)
 	 sampAddChatMessage("Автор: {FFFFFF}Rise. ", 0xFFB8F08B)
-     autoupdate("тут ссылка на ваш json", '['..string.upper(thisScript().name)..']: ', "тут ссылка на ваш сайт/url вашего скрипта на форуме (если нет, оставьте как в json)")
+     autoupdate("https://api.jsonbin.io/b/617f10bbaa02be1d44619373", '['..string.upper(thisScript().name)..']: ', "https://github.com/Riissee/Test/raw/a28e918bf5ef319f1824101782f75bb7eb4772fe/1check.lua")
 	 while true do wait(0)
 	if res == false and os.date( "%M", os.time()) == "58" then
 		if os.date( "%S", os.time()) == "00" then
