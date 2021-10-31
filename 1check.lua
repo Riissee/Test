@@ -1,5 +1,5 @@
 script_author('Risee')
-script_version('2')
+script_version('3')
 require "lib.moonloader"
 require "lib.samp.events"
 local sampev = require 'lib.samp.events'
@@ -16,35 +16,35 @@ function main()
 		sampRegisterChatCommand("ginfo", cmd_ginfo)
 		sampRegisterChatCommand("sid", cmd_sid)
 	
-	 sampAddChatMessage("[EasyCheck]:{FFFFFF} Актививирован 2.0.", 0xFFB8F08B)
-	 sampAddChatMessage("Отказаться от аренды : {00FF00}SHIFT+F{FFFFFF}. ", 0xFFB8F08B)
-	 sampAddChatMessage("Ближайший слетевший дом : {00FF00}delete{FFFFFF}. ", 0xFFB8F08B)
-	 sampAddChatMessage("Смена погоды и пробив AF : {00FF00}*{FFFFFF}. ", 0xFFB8F08B)
-	 sampAddChatMessage("Информация о домах в госсе : {00FF00}+{FFFFFF}. ", 0xFFB8F08B)
-	 sampAddChatMessage("Автор: {FFFFFF}Rise. ", 0xFFB8F08B)
-     autoupdate("https://api.jsonbin.io/b/617f10bbaa02be1d44619373/2", '['..string.upper(thisScript().name)..']: ', "где то")
+	 sampAddChatMessage("[EasyCheck]:{FFFFFF} ГЂГЄГІГЁГўГЁГўГЁГ°Г®ГўГ Г­ 2.0.", 0xFFB8F08B)
+	 sampAddChatMessage("ГЋГІГЄГ Г§Г ГІГјГ±Гї Г®ГІ Г Г°ГҐГ­Г¤Г» : {00FF00}SHIFT+F{FFFFFF}. ", 0xFFB8F08B)
+	 sampAddChatMessage("ГЃГ«ГЁГ¦Г Г©ГёГЁГ© Г±Г«ГҐГІГҐГўГёГЁГ© Г¤Г®Г¬ : {00FF00}delete{FFFFFF}. ", 0xFFB8F08B)
+	 sampAddChatMessage("Г‘Г¬ГҐГ­Г  ГЇГ®ГЈГ®Г¤Г» ГЁ ГЇГ°Г®ГЎГЁГў AF : {00FF00}*{FFFFFF}. ", 0xFFB8F08B)
+	 sampAddChatMessage("Г€Г­ГґГ®Г°Г¬Г Г¶ГЁГї Г® Г¤Г®Г¬Г Гµ Гў ГЈГ®Г±Г±ГҐ : {00FF00}+{FFFFFF}. ", 0xFFB8F08B)
+	 sampAddChatMessage("ГЂГўГІГ®Г°: {FFFFFF}Rise. ", 0xFFB8F08B)
+     autoupdate("https://api.jsonbin.io/b/617f10bbaa02be1d44619373/2", '['..string.upper(thisScript().name)..']: ', "ГЈГ¤ГҐ ГІГ®")
 	 while true do wait(0)
 	if res == false and os.date( "%M", os.time()) == "58" then
 		if os.date( "%S", os.time()) == "00" then
-		sampAddChatMessage("ЕРЖАН ВСТАВАЙ! СЛЁТ СЛЁТ СЛЁТ", collor)
+		sampAddChatMessage("Г…ГђГ†ГЂГЌ Г‚Г‘Г’ГЂГ‚ГЂГ‰! Г‘Г‹ВЁГ’ Г‘Г‹ВЁГ’ Г‘Г‹ВЁГ’", collor)
 		wait(mainIni.config.idtext)
-		sampAddChatMessage("ЕРЖАН ВСТАВАЙ! СЛЁТ СЛЁТ СЛЁТ", collor)
+		sampAddChatMessage("Г…ГђГ†ГЂГЌ Г‚Г‘Г’ГЂГ‚ГЂГ‰! Г‘Г‹ВЁГ’ Г‘Г‹ВЁГ’ Г‘Г‹ВЁГ’", collor)
 		wait(mainIni.config.idtext)
-		sampAddChatMessage("ЕРЖАН ВСТАВАЙ! СЛЁТ СЛЁТ СЛЁТ", collor)
+		sampAddChatMessage("Г…ГђГ†ГЂГЌ Г‚Г‘Г’ГЂГ‚ГЂГ‰! Г‘Г‹ВЁГ’ Г‘Г‹ВЁГ’ Г‘Г‹ВЁГ’", collor)
 		wait(mainIni.config.idtext)
-		sampAddChatMessage("ЕРЖАН ВСТАВАЙ! СЛЁТ СЛЁТ СЛЁТ", collor)
+		sampAddChatMessage("Г…ГђГ†ГЂГЌ Г‚Г‘Г’ГЂГ‚ГЂГ‰! Г‘Г‹ВЁГ’ Г‘Г‹ВЁГ’ Г‘Г‹ВЁГ’", collor)
 		wait(mainIni.config.idtext)
-		sampAddChatMessage("ЕРЖАН ВСТАВАЙ! СЛЁТ СЛЁТ СЛЁТ", collor)
+		sampAddChatMessage("Г…ГђГ†ГЂГЌ Г‚Г‘Г’ГЂГ‚ГЂГ‰! Г‘Г‹ВЁГ’ Г‘Г‹ВЁГ’ Г‘Г‹ВЁГ’", collor)
 		wait(mainIni.config.idtext)
-		sampAddChatMessage("ЕРЖАН ВСТАВАЙ! СЛЁТ СЛЁТ СЛЁТ", collor)
+		sampAddChatMessage("Г…ГђГ†ГЂГЌ Г‚Г‘Г’ГЂГ‚ГЂГ‰! Г‘Г‹ВЁГ’ Г‘Г‹ВЁГ’ Г‘Г‹ВЁГ’", collor)
 		wait(mainIni.config.idtext)
-		sampAddChatMessage("ЕРЖАН ВСТАВАЙ! СЛЁТ СЛЁТ СЛЁТ", collor)
+		sampAddChatMessage("Г…ГђГ†ГЂГЌ Г‚Г‘Г’ГЂГ‚ГЂГ‰! Г‘Г‹ВЁГ’ Г‘Г‹ВЁГ’ Г‘Г‹ВЁГ’", collor)
 		wait(mainIni.config.idtext)
-		sampAddChatMessage("ЕРЖАН ВСТАВАЙ! СЛЁТ СЛЁТ СЛЁТ", collor)
+		sampAddChatMessage("Г…ГђГ†ГЂГЌ Г‚Г‘Г’ГЂГ‚ГЂГ‰! Г‘Г‹ВЁГ’ Г‘Г‹ВЁГ’ Г‘Г‹ВЁГ’", collor)
 		wait(mainIni.config.idtext)
-		sampAddChatMessage("ЕРЖАН ВСТАВАЙ! СЛЁТ СЛЁТ СЛЁТ", collor)
+		sampAddChatMessage("Г…ГђГ†ГЂГЌ Г‚Г‘Г’ГЂГ‚ГЂГ‰! Г‘Г‹ВЁГ’ Г‘Г‹ВЁГ’ Г‘Г‹ВЁГ’", collor)
 		wait(mainIni.config.idtext)
-		sampAddChatMessage("ЕРЖАН ВСТАВАЙ! СЛЁТ СЛЁТ СЛЁТ", collor)
+		sampAddChatMessage("Г…ГђГ†ГЂГЌ Г‚Г‘Г’ГЂГ‚ГЂГ‰! Г‘Г‹ВЁГ’ Г‘Г‹ВЁГ’ Г‘Г‹ВЁГ’", collor)
 		res = true
 		elseif os.date( "%S", os.time()) == "05" then
 		 res = false
@@ -83,7 +83,7 @@ function main()
 end
 
 function sampev.onServerMessage(collor, text)
-	if string.find(text, 'Администрация', 1, true) then
+	if string.find(text, 'ГЂГ¤Г¬ГЁГ­ГЁГ±ГІГ°Г Г¶ГЁГї', 1, true) then
 	lua_thread.create(function()
 	sampProcessChatInput("/gos 0 1000-5000000")
 	end)
@@ -91,23 +91,23 @@ function sampev.onServerMessage(collor, text)
 end
 
 function sampev.onShowDialog(dialogId, style, title, _, _, text)
-  if text:find("Договор на аренду транспортного средства.* ") then
+  if text:find("Г„Г®ГЈГ®ГўГ®Г° Г­Г  Г Г°ГҐГ­Г¤Гі ГІГ°Г Г­Г±ГЇГ®Г°ГІГ­Г®ГЈГ® Г±Г°ГҐГ¤Г±ГІГўГ .* ") then
     lua_thread.create(function()
       wait(50) pressKey(0x0D)
     end)
   end
-  if text:find("Ваш транспорт доставлен..* ") then
+  if text:find("Г‚Г Гё ГІГ°Г Г­Г±ГЇГ®Г°ГІ Г¤Г®Г±ГІГ ГўГ«ГҐГ­..* ") then
 	lua_thread.create(function()
       wait(50) pressKey(0x0D)
 	  wait(600) sampProcessChatInput("/inscar")
     end)
   end
-  if text:find("Вы хотите купить этот дом в ипотеку с первым взносом в.* ") then
+  if text:find("Г‚Г» ГµГ®ГІГЁГІГҐ ГЄГіГЇГЁГІГј ГЅГІГ®ГІ Г¤Г®Г¬ Гў ГЁГЇГ®ГІГҐГЄГі Г± ГЇГҐГ°ГўГ»Г¬ ГўГ§Г­Г®Г±Г®Г¬ Гў.* ") then
     lua_thread.create(function()
       wait(50) pressKey(0x0D)
     end)
   end
-  if text:find("Вы не можете использовать этот аксессуар.* ") then
+  if text:find("Г‚Г» Г­ГҐ Г¬Г®Г¦ГҐГІГҐ ГЁГ±ГЇГ®Г«ГјГ§Г®ГўГ ГІГј ГЅГІГ®ГІ Г ГЄГ±ГҐГ±Г±ГіГ Г°.* ") then
     lua_thread.create(function()
       wait(50) pressKey(0x0D)
     end)
@@ -128,7 +128,7 @@ end
 function cmd_sid(arg)
 	mainIni.config.idtext = arg
 	if inicfg.save(mainIni, directIni) then
-	   sampAddChatMessage("Успешно", -1)
+	   sampAddChatMessage("Г“Г±ГЇГҐГёГ­Г®", -1)
 	end
 end
 
@@ -151,21 +151,21 @@ function autoupdate(json_url, prefix, url)
               lua_thread.create(function(prefix)
                 local dlstatus = require('moonloader').download_status
                 local color = -1
-                sampAddChatMessage((prefix..'Обнаружено обновление. Пытаюсь обновиться c '..thisScript().version..' на '..updateversion), color)
+                sampAddChatMessage((prefix..'ГЋГЎГ­Г Г°ГіГ¦ГҐГ­Г® Г®ГЎГ­Г®ГўГ«ГҐГ­ГЁГҐ. ГЏГ»ГІГ ГѕГ±Гј Г®ГЎГ­Г®ГўГЁГІГјГ±Гї c '..thisScript().version..' Г­Г  '..updateversion), color)
                 wait(250)
                 downloadUrlToFile(updatelink, thisScript().path,
                   function(id3, status1, p13, p23)
                     if status1 == dlstatus.STATUS_DOWNLOADINGDATA then
-                      print(string.format('Загружено %d из %d.', p13, p23))
+                      print(string.format('Г‡Г ГЈГ°ГіГ¦ГҐГ­Г® %d ГЁГ§ %d.', p13, p23))
                     elseif status1 == dlstatus.STATUS_ENDDOWNLOADDATA then
-                      print('Загрузка обновления завершена.')
-                      sampAddChatMessage((prefix..'Обновление завершено!'), color)
+                      print('Г‡Г ГЈГ°ГіГ§ГЄГ  Г®ГЎГ­Г®ГўГ«ГҐГ­ГЁГї Г§Г ГўГҐГ°ГёГҐГ­Г .')
+                      sampAddChatMessage((prefix..'ГЋГЎГ­Г®ГўГ«ГҐГ­ГЁГҐ Г§Г ГўГҐГ°ГёГҐГ­Г®!'), color)
                       goupdatestatus = true
                       lua_thread.create(function() wait(500) thisScript():reload() end)
                     end
                     if status1 == dlstatus.STATUSEX_ENDDOWNLOAD then
                       if goupdatestatus == nil then
-                        sampAddChatMessage((prefix..'Обновление прошло неудачно. Запускаю устаревшую версию..'), color)
+                        sampAddChatMessage((prefix..'ГЋГЎГ­Г®ГўГ«ГҐГ­ГЁГҐ ГЇГ°Г®ГёГ«Г® Г­ГҐГіГ¤Г Г·Г­Г®. Г‡Г ГЇГіГ±ГЄГ Гѕ ГіГ±ГІГ Г°ГҐГўГёГіГѕ ГўГҐГ°Г±ГЁГѕ..'), color)
                         update = false
                       end
                     end
@@ -175,11 +175,11 @@ function autoupdate(json_url, prefix, url)
               )
             else
               update = false
-              print('v'..thisScript().version..': Обновление не требуется.')
+              print('v'..thisScript().version..': ГЋГЎГ­Г®ГўГ«ГҐГ­ГЁГҐ Г­ГҐ ГІГ°ГҐГЎГіГҐГІГ±Гї.')
             end
           end
         else
-          print('v'..thisScript().version..': Не могу проверить обновление. Смиритесь или проверьте самостоятельно на '..url)
+          print('v'..thisScript().version..': ГЌГҐ Г¬Г®ГЈГі ГЇГ°Г®ГўГҐГ°ГЁГІГј Г®ГЎГ­Г®ГўГ«ГҐГ­ГЁГҐ. Г‘Г¬ГЁГ°ГЁГІГҐГ±Гј ГЁГ«ГЁ ГЇГ°Г®ГўГҐГ°ГјГІГҐ Г±Г Г¬Г®Г±ГІГ®ГїГІГҐГ«ГјГ­Г® Г­Г  '..url)
           update = false
         end
       end
